@@ -1,0 +1,71 @@
+/* Ajustes al final de tu archivo CSS */
+
+
+
+.navigation.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Open Sans',sans-serif;
+    margin: 0 20px; /* Reducí el margen */
+    color: #333333;
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none; /* Quita el subrayado */
+    list-style: none; /* Elimina los puntos de la lista */
+        padding: 0; /* Elimina el relleno predeterminado de la lista */
+        position: relative;left: 300px;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link1{
+    font-family: 'Open Sans',sans-serif;
+    margin: 0 20px; /* Reducí el margen */
+    color: #333333;
+    font-size: 16px; /* Tamaño de fuente */
+    line-height: 20px;
+    font-weight: 500;
+    list-style: none; /* Elimina los puntos de la lista */
+        padding: 0; /* Elimina el relleno predeterminado de la lista */
+    text-transform: uppercase;
+    text-decoration: none; /* Quita el subrayado */
+    position: relative;left: 310px; 
+  
+        
+}
+.navigation.navbar-dark .navbar-nav .nav-link2{
+    font-family: 'Open Sans',sans-serif;
+    margin: 0 20px; /* Reducí el margen */
+    color: #333333;
+    font-size: 16px; /* Tamaño de fuente */
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none; /* Quita el subrayado */
+position: relative;left: 320px;
+list-style: none; /* Elimina los puntos de la lista */
+padding: 0; /* Elimina el relleno predeterminado de la lista */
+
+}
+
+
+/* Estilo para el contenedor de los enlaces */
+.col-md-10.offset-md-1 {
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+/* Estilo para el fondo del contenedor de los enlaces */
+
+/* Estilo para el pie de página */
+.bottom-container {
+    text-align: center;
+    margin-top: 20px;
+
+}
+.navigation.navbar-dark .navbar-nav {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+.navigation.navbar-dark .navbar-nav li {
+    display: inline-block; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Ajusta el espacio entre los enlaces */
+}

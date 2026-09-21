@@ -1,0 +1,39 @@
+body {
+  background-image: url(''); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta de tu imagen de fondo */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  background-size: cover; /* Ajusta la imagen de fondo para que cubra todo el elemento 'body' */
+  background-position: center; /* Centra la imagen de fondo */
+  /* También puedes establecer otras propiedades, como background-color si deseas un color de fondo de respaldo */
+}
+
+/* Estilos para el div superior */
+header.masthead {
+  background-color: red;
+  padding: 80px 0;
+}
+
+h1.masthead-heading {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.bottom-container {
+  text-transform: lowercase;
+  font-family: 'Canva', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+/* Estilos para el div inferior */
+footer.masthead {
+  background-color: rgb(93, 67, 67);
+  padding: 80px 0;
+}
+
+footer p {
+  font-family: 'Canva', sans-serif;
+  text-transform: lowercase;
+  color: white;
+  font-size: 1.5em;
+}

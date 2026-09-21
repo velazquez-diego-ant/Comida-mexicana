@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body {
+    background-color: lightblue; /* Fondo de color azul celeste */
+    font-family: Arial, sans-serif; /* Fuente sans-serif */
+    text-align: center; /* Texto centrado en el cuerpo */
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#questions-left {
+    flex: 1; /* Ocupa el 50% del ancho en dispositivos móviles */
+    padding: 20px;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+#questions-right {
+    flex: 1; /* Ocupa el 50% del ancho en dispositivos móviles */
+    padding: 20px;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.question {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.button {
+    background-color: #4CAF50; /* Color verde para los botones */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados para los botones */
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+}
+/* Estilos para el botón 'Enviar resultados' */
+#enviar {
+    background-color: #007BFF; /* Cambia el color de fondo a tu preferencia */
+    color: #fff; /* Cambia el color del texto a tu preferencia */
+    padding: 10px 20px; /* Ajusta el espaciado interno según tus necesidades */
+    border: none;
+    border-radius: 5px; /* Agrega bordes redondeados */
+    cursor: pointer;
+}
+
+#enviar:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
+
+/* Estilos para el botón 'Reiniciar' */
+#reset {
+    background-color: #DC3545; /* Cambia el color de fondo a tu preferencia */
+    color: #fff; /* Cambia el color del texto a tu preferencia */
+    padding: 10px 20px; /* Ajusta el espaciado interno según tus necesidades */
+    border: none;
+    border-radius: 5px; /* Agrega bordes redondeados */
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: #a71d2a; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
+/* Estilos para centrar y embellecer h1 y h2 */
+h1, h2 {
+    text-align: center; /* Centrar el texto */
+    font-family: 'Montserrat', sans-serif; /* Fuente elegante (asegúrate de tener Montserrat incluido) */
+    font-weight: 900; /* Peso de la fuente en negrita */
+    margin-top: 50px; /* Espaciado superior */
+    color: #02060b61; /* Cambia el color del texto a tu preferencia */
+}
+
+h2 {
+    margin-top: 10px; /* Espaciado superior para h2 */
+    font-size: 1.2em; /* Tamaño del texto */
+}
+
+/* Agregar más estilos personalizados si es necesario */
